@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2",
+  },
+  "scripts": {
+    "server": "node server.js",
+    "start": "DEBUG=electronpdf:* electron server.js",
+    "watch": "DEBUG=electronpdf:* nodemon --exec electron server.js"
+  },
+}
+
