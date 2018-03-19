@@ -9,6 +9,6 @@
     "server": "node server.js",
     "start": "DEBUG=electronpdf:* electron server.js",
     "watch": "DEBUG=electronpdf:* nodemon --exec electron server.js"
-  },
+  }
 }
 
